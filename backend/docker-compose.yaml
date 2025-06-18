@@ -1,0 +1,8 @@
+services:
+  postgres:
+    image: postgres
+    ports: 
+      - 3334:5432
+    environment: 
+      POSTGRES_PASSWORD: sdksakdjnasjdnsajdankdnjasd
+      POSTGRES_DB: padmasridb
